@@ -10,17 +10,14 @@ body {
   text-transform: uppercase;
 
 background-color: #ffffff;
- 
- background-position: top center;
-  
-background-repeat: no-repeat;
+   
 }
 
 a{
 text-decoration: none;
 }
 
-.site-navigation{
+.main-navigation{
 font-size: 16px;
   
 line-height: 30px;
@@ -29,4 +26,70 @@ color: #000000;
 
   
 background-color: #eeeeee;
+}
+
+.site-navigation,
+
+.user-navigation{
+list-style: none;
+}
+
+.site-navigation a,
+
+.user-navigation a {
+ 
+ color: #000000;
+
+}
+
+.site-navigation a:hover,
+
+.site-navigation a:focus,
+
+.user-navigation a:hover,
+
+.user-navigation a:focus {
+ 
+ background-color: #fb565a;
+
+}
+
+.amenities-list{
+ 
+list-style: none; 
+
+}
+
+
+.button{
+display:inline-block;
+padding:10px 15px;
+}
+
+.left {
+background-color: #fb565a;
+}
+
+.center {
+background-color: #00ca74;
+}
+
+.right {
+background-color: #efc84a;
+}
+
+.slogan{
+font-size: 45px;
+line-height: 45px;
+font-weight: 700;
+color: #000000;
+}
+
+
+"basic"{
+background-color: #ffffff;
+}
+
+.button-inner{
+background-color: #efc84a;
 }
