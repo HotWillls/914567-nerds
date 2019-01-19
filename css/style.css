@@ -106,13 +106,6 @@ padding:10px 15px;
 font-weight: 600;
 }
 
-.static  {
-:before
-border-left: 2px #ccc; /* Параметры линии */ 
-    margin-left: 20px; /* Отступ слева */
-    padding-left: 10px; /* Расстояние от линии до текста */ 
-}
-
 .page-title{
 margin: 0px;
   padding: 5px;
