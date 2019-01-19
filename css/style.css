@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 300;
   color: black;
   text-transform: uppercase;
 
@@ -91,5 +91,36 @@ background-color: #ffffff;
 }
 
 .button-inner{
-background-color: #efc84a;
+background-color: #fb565a;
+display:inline-block;
+padding:10px 15px;
+}
+
+.pagination-list{
+background-color: #eeeeee;
+display:inline-block;
+padding:10px 15px;
+}
+
+.modal-window{
+font-weight: 600;
+}
+
+.static  {
+:before
+border-left: 2px #ccc; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+}
+
+.page-title{
+margin: 0px;
+  padding: 5px;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 700;
+  color: black;;  
+background-color: #eeeeee;  
 }
