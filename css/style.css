@@ -117,3 +117,42 @@ margin: 0px;
   color: black;;  
 background-color: #eeeeee;  
 }
+
+.nerds-image{
+
+}
+
+
+.static-title{
+}
+
+.numbers{
+  font-size: 10,06px;
+  font-weight: 700;
+  line-height: 20px;
+color: rgb(0,0,0);
+}
+
+.line-numbers{
+font-size: 40px;
+}
+
+.line-text{
+font-size: 15px;
+}
+
+/*О компании и статистика, флексбокс*/
+
+.flex-company{
+align-items:stretch; 
+display:flex;
+flex-direction: row;
+justify-content:space-between; 
+}
+
+.slogan-general{
+flex-direction: row;
+justify-content:space-between ;
+}
+
+
