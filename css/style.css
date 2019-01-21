@@ -80,6 +80,7 @@ display:inline-block;
 padding:10px 15px;
 }
 
+
 .left {
 background-color: #fb565a;
 }
@@ -164,17 +165,23 @@ font-size: 15px;
 align-items:stretch; 
 display:flex;
 flex-direction: row;
-justify-content:space-between; 
+justify-content:space-around; 
+}
+
+.flex-static{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: stretch;
 }
 
 /*Промоблок*/
 
 .promo-block{
 display:flex;
-align-items:stretch; 
+align-items:baseline; 
 justify-content:space-around; 
 }
-
 
 /*Логотипы*/
 
