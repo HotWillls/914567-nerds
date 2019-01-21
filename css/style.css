@@ -1,8 +1,7 @@
 body {
   position: relative;
-  width: 1200px;
-  left: 75px;
-  margin: 0;
+  width: ;
+  margin: 0 auto;
   padding: 0;
 
   font-family: "Roboto", Arial, sans-serif;
@@ -16,11 +15,32 @@ background-color: #ffffff;
    
 }
 
+.main-header{
+padding: 0 20px;
+background-color: #eeeeee;
+}
+
+.slide-switcher{
+width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.general-basic{
+width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
 a{
 text-decoration: none;
 }
+.line td{
 
+}
 .main-navigation {
+width: 1200px;
+margin: 0 auto;
 display:flex;
 align-items:stretch; 
 
@@ -213,10 +233,7 @@ justify-content:space-around;
 
 /*Карта на главной*/
 .map{
-display:flex;
-align-items:stretch; 
-justify-content:space-around;
-flex-direction: column;
+
 } 
 
 /*Подвал*/
