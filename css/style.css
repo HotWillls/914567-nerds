@@ -206,6 +206,14 @@ justify-content:space-around;
 flex-wrap: wrap;
 } 
 
+/*Список каталога*/
+.catalog-list{
+display:flex;
+align-items:stretch;
+justify-content:space-around; 
+flex-wrap: wrap;
+} 
+
 
 /*Карта в каталоге*/
 map-catalog{
