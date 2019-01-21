@@ -17,6 +17,20 @@ a{
 text-decoration: none;
 }
 
+.main-navigation {
+display:flex;
+align-items:stretch; 
+
+justify-content:space-around; 
+}
+
+.site-navigation{
+display:flex;
+align-items:stretch; 
+justify-content:space-around; 
+padding: 10px;
+}
+
 .main-navigation{
 font-size: 16px;
   
@@ -107,8 +121,11 @@ font-weight: 600;
 }
 
 .page-title{
+display:flex;
+align-items:center;
+justify-content:space-around; 
 margin: 0px;
-  padding: 5px;
+  padding: 80px;
 
   font-family: "Roboto", Arial, sans-serif;
   font-size: 55px;
@@ -150,9 +167,64 @@ flex-direction: row;
 justify-content:space-between; 
 }
 
-.slogan-general{
-flex-direction: row;
-justify-content:space-between ;
+/*Промоблок*/
+
+.promo-block{
+display:flex;
+align-items:stretch; 
+justify-content:space-around; 
 }
 
 
+/*Логотипы*/
+
+.logotype{
+display:flex;
+align-items:stretch; 
+justify-content:space-around;
+} 
+
+/*Карта*/
+.map{
+display:flex;
+align-items:stretch; 
+justify-content:space-around;
+} 
+
+/*Подвал*/
+.footer-social{
+display:flex;
+align-items:center;
+justify-content:space-around; 
+} 
+
+/*Каталог*/
+.catalog{
+display:flex;
+align-items:stretch;
+justify-content:space-around; 
+flex-wrap: wrap;
+} 
+
+
+/*Карта в каталоге*/
+map-catalog{
+display:flex;
+align-items:center;
+justify-content:space-around; 
+} 
+
+
+/*Давай дружить*/
+.footer-text{
+display: flex;
+align-items:center;
+justify-content:space-around;
+flex-direction: column; 
+}
+
+.social-footer{
+display:flex;
+align-items:stretch;
+justify-content:space-around; 
+} 
