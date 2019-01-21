@@ -1,6 +1,5 @@
 body {
   position: relative;
-  width: ;
   margin: 0 auto;
   padding: 0;
 
@@ -9,21 +8,76 @@ body {
   line-height: 24px;
   font-weight: 300;
   color: black;
-  text-transform: uppercase;
 
 background-color: #ffffff;
    
 }
 
+/*слоган первого слайда*/
+.slider-slogan{
+  font-size: 55px;
+  margin-bottom: 0px;
+  margin-top: 14px;
+  line-height: 54px;
+  margin-left: 0px;
+  font-weight: 500;
+}
+
+/*Описание первого слайда*/
+.slider-description{
+margin-top: 26px;
+}
+
+/*Кнопка первого слайда*/
+.btn-big{
+display: inline-block;
+padding: 12.5px 15px;
+background-color: #fb565a;
+color: white;
+text-transform: uppercase;
+margin-top: 24px;
+text-align: center;
+width: 211px;
+border-radius: 2px;
+}
+
+
+.slider-list{
+list-style: none;
+padding-left:0;
+}
+
 .main-header{
 padding: 0 20px;
 background-color: #eeeeee;
+text-transform: uppercase;
 }
 
+/*навигация (позиционирование)*/
+.site-navigation{
+margin-left: -43px;
+width: 485px;
+}
+
+/*Корзина (Позиционирование)*/
+.user-navigation li{
+margin-top: 9px;
+margin-right: 40px;
+}
+
+/*Картинка первого слайда*/
+.image-slider-1{
+position: absolute;
+right: 117px;
+top: 65px;
+}
+
+/*Задний фон первого слайда*/
 .slide-switcher{
+background-color: #eeeeee;
 width: 1200px;
 margin: 0 auto;
-padding: 0 20px;
+padding: 0 73px;
 }
 
 .general-basic{
@@ -51,7 +105,7 @@ justify-content:space-between;
 display:flex;
 align-items:stretch; 
 justify-content:space-around; 
-padding: 10px;
+padding: 9px;
 }
 
 .main-navigation{
