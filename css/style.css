@@ -152,6 +152,48 @@ font-size: 24px;
   width: 160px;
   border-radius: 4px;
 }
+  /*Третий промоблок (Вставлена картинка "Презентации")*/
+.promo-block-item-3 {
+  background-repeat: no-repeat;
+  background-image: url("../img/presentation.jpg");
+  width: 302px;
+  padding-top: 147px;
+}
+  /*заголовок третьего промоблока*/
+.fonts-promo-item-4 {
+  margin-bottom: 0px;
+  font-size: 24px;
+  }
+
+  /*Описание третьего промоблока*/
+  .fonts-promo-item-5{
+    margin-top: 19px;
+  }
+
+  /*Кнопка третьего промоблока*/
+.right{
+  display: inline-block;
+  padding: 12.5px 0px;
+  background-color: #efc84a;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 18px;
+  text-align: center;
+  width: 160px;
+  border-radius: 4px;
+}
+
+/*Общий блок о компании*/
+.flex-company{
+  padding-right: 62px;
+}
+
+/*Блок о компании*/
+.slogan-general{
+  padding-top: 78px;
+}
+
+
 .main-header{
   padding: 0 20px;
   background-color: #eeeeee;
@@ -214,28 +256,20 @@ padding: 9px;
 }
 
 .main-navigation{
-font-size: 16px;
-  
-line-height: 30px;
-  
-color: #000000;
-
-  
-background-color: #eeeeee;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #eeeeee;
 }
 
 .site-navigation,
-
 .user-navigation{
 list-style: none;
 }
 
 .site-navigation a,
-
 .user-navigation a {
- 
- color: #000000;
-
+  color: #000000;
 }
 
 .site-navigation a:hover,
@@ -250,15 +284,15 @@ list-style: none;
 }
 
 .right {
-background-color: #efc84a;
+
 }
 
-.slogan{
-font-size: 45px;
-line-height: 45px;
-font-weight: 700;
-color: #000000;
-}
+slogan{
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+  }
 
 
 basic{
